@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <project name="My Project" default="build">
-  <target name="build" depends="phpunit" />
+  <target name="build" depends="phpunit, phpmd" />
  
   <target name="init">
     <mkdir dir="${basedir}/build/logs" />
