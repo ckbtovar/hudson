@@ -11,4 +11,11 @@
      <arg line=" --log-junit '${basedir}/build/logs/phpunit.xml' --coverage-clover '${basedir}/build/logs/clover.xml' --coverage-html '${basedir}/build/logs/coverage' ." />
    </exec>
   </target>
+
+<target name="phpmd">
+  <exec executable="phpmd" dir="${basedir}" failonerror="off">
+   <arg line="source xml codesize,unusedcode --reportfile '${basedir}/build/logs/pmd.xml'" />
+  </exec>
+ </target>
+
  </project>
