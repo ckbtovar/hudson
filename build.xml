@@ -14,7 +14,7 @@
 
 <target name="phpmd">
   <exec executable="phpmd" dir="${basedir}" failonerror="off">
-   <arg line="source xml codesize,unusedcode --reportfile '${basedir}/build/logs/pmd.xml'" />
+   <arg line="src xml codesize,unusedcode --reportfile '${basedir}/build/logs/pmd.xml'" />
   </exec>
  </target>
 
