@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="." tests="1" assertions="1" failures="0" errors="0" time="0.036532">
-    <testsuite name="ExampleTest" file="/home/rsyncadmin/hudson/tests/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.036532">
-      <testcase name="testFoo" class="ExampleTest" file="/home/rsyncadmin/hudson/tests/ExampleTest.php" line="5" assertions="1" time="0.036532"/>
-    </testsuite>
-  </testsuite>
-</testsuites>
